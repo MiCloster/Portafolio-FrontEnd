@@ -1,0 +1,69 @@
+.navbar.navbar-expand-lg{
+    background: rgb(225,115,249);
+background: linear-gradient(0deg, rgba(225,115,249) 0%, rgba(155,79,199) 100%);
+}
+
+.list-group-item{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+
+    
+}
+
+.fa-brands{
+    font-size: 2em;
+
+}
+
+.fa-solid{
+    font-size: 2em;
+
+}
+
+i.fa-brands.fa-instagram:hover{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(98,18,144), rgb(221,25,78),rgb(237,123,22));
+    
+}
+
+i.fa-brands.fa-github:hover{
+    color: white;
+}
+
+i.fa-solid.fa-user:hover{
+    color: white;
+}
+
+.modal-header{
+    color: white;
+    background-color:rgba(73, 10, 78, 0.582);
+    --bs-modal-header-border-color: transparent;
+}
+
+.btn.btn-primary{
+    background-color: rgba(73, 10, 78, 0.582);
+    --bs-btn-border-color: transparent;
+}
+
+.btn.btn-primary:hover{
+    font-weight: bold;
+    background-color: rgba(46, 5, 48, 0.801);
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-bg: rgba(46, 5, 48, 0.801);
+    --bs-btn-active-border-color: transparent;
+}
+
+
+.modal-body{
+    background-color:  rgba(232, 201, 235, 0.342);
+}
+
+.modal-footer{
+    --bs-modal-footer-bg: rgba(232, 201, 235, 0.342);
+    --bs-modal-footer-border-color: transparent;
+}
+
+.form-label{
+    font-weight: bold;
+}
