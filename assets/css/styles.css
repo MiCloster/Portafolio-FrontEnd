@@ -1,6 +1,7 @@
 .navbar.navbar-expand-lg{
-    background: rgb(225,115,249);
-background: linear-gradient(0deg, rgba(225,115,249) 0%, rgba(155,79,199) 100%);
+    background: rgb(173,175,196);
+background: linear-gradient(0deg, rgba(173,175,196,1) 0%, rgba(216,177,196,1) 100%);
+
 }
 
 .list-group-item{
@@ -12,7 +13,7 @@ background: linear-gradient(0deg, rgba(225,115,249) 0%, rgba(155,79,199) 100%);
 
 .fa-brands{
     font-size: 2em;
-
+    color: white;
 }
 
 .fa-solid{
@@ -28,21 +29,24 @@ i.fa-brands.fa-instagram:hover{
 }
 
 i.fa-brands.fa-github:hover{
-    color: white;
+    color: black;
 }
 
-i.fa-solid.fa-user:hover{
+.fa-solid{
     color: white;
+}
+i.fa-solid.fa-user:hover{
+    color: rgb(96, 73, 185);
 }
 
 .modal-header{
     color: white;
-    background-color:rgba(73, 10, 78, 0.582);
+    background-color:rgba(42, 10, 78, 0.582);
     --bs-modal-header-border-color: transparent;
 }
 
 .btn.btn-primary{
-    background-color: rgba(73, 10, 78, 0.582);
+    background-color: rgba(42, 10, 78, 0.582);
     --bs-btn-border-color: transparent;
 }
 
@@ -66,4 +70,78 @@ i.fa-solid.fa-user:hover{
 
 .form-label{
     font-weight: bold;
+}
+
+section.banner{
+    background-image: url(https://wallpaperaccess.com/full/2963436.jpg);
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+h1.intro{
+    color: rgb(78, 83, 131);
+    padding-top: 12%;
+    font-size: 5rem;
+    font-family: cursive;
+}
+
+img.perfil{
+    width: 55%;
+    border-radius: 5%;
+}
+
+.carousel.slide{
+    background: rgb(251,190,180);
+background: linear-gradient(0deg, rgba(251,190,180,1) 0%, rgba(173,175,196,1) 100%);
+}
+
+h2.nombre{
+    color: rgb(78, 83, 131);
+    padding-top: 40%;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+p.about{
+    color: rgb(78, 83, 131);
+    font-size: 2rem;
+    font-family: cursive;
+    padding-top: 20%;
+    text-align: left;
+    margin-left: 15%;
+}
+
+img.perfil2{
+    width: 70%;
+    border-radius: 5%;
+}
+
+h1.educacion{
+    padding-top: 5%;
+    color: rgb(78, 83, 131) ;
+    text-align: center;
+}
+
+section.presentacion2{
+    background: rgb(251,211,172);
+background: linear-gradient(0deg, rgba(251,211,172,1) 0%, rgba(251,190,180,1) 100%);
+}
+
+img.colunlpam{
+    margin-top: 10%;
+
+}
+
+h2.colunlpam{
+    text-align: justify;
+    padding-top: 15%;
+    color: rgb(101, 98, 128) ;
+}
+
+h4.colunlpam{
+    text-align: left;
+    color: rgb(101, 98, 128) ;
 }

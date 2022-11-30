@@ -21,56 +21,147 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="https://www.concordia.gob.ar/sites/all/themes/programar/images/arg-programa.png" alt="Logo" width="" height="60" class="d-inline-block align-text-top">
+                <img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1668983675/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2817%29.png" width="" height="60" class="d-inline-block align-text-top img-fluid">
               </a>
+              <!--ICONO-->
               <ul class= "list-group  list-group-horizontal">
-                <li class="list-group-item"><i class="fa-brands fa-instagram"></i></li>
-                <li class="list-group-item"><i class="fa-brands  fa-github"></i></li>
+               
+                <li class="list-group-item">
+                  <a href="https://www.instagram.com/milicloster/" target="_blank"> 
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+
+                <li class="list-group-item">
+                  <a href="https://github.com/MiCloster" target="_blank">
+                    <i class="fa-brands  fa-github"></i></li>
+                  </a>
                 
-                <!-- Button trigger Modal -->
+                <!--Button trigger Modal -->
                 <li class="list-group-item"><i class="fa-solid  fa-user" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></li>
 
               </ul>
-            
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de Sesión</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="mb-3 row">
-                        <!--Ingreso de mail y contraseña-->
-                        <label for="staticEmail" class="form-label">Usuario</label>
-                        <div class="col-sm-10">
-                          <input type="text" class="form-control" id="staticEmail">
-                        </div>
-                      </div>
-                      <div class="mb-3 row">
-                        <label for="inputPassword" class="form-label">Contraseña</label>
-                        <div class="col-sm-10">
-                          <input type="password" class="form-control" id="inputPassword">
-                        </div>
-                      </div>
-                      <div class="mb-3 form-check">
+          </div>
+      </nav>
 
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  
-                        <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-                  
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-primary">Aceptar</button>
-                    </div>
+      <!--Banner-->
+      <section class="banner">
+        <h1 class="text-center intro">
+          Bienvenidos a mi portafolio
+        </h1>
+      </section>
+
+      <!--Presentacion-->
+      <section class="presentacion">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!--Columna Presentacion-->
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img src="http://drive.google.com/uc?export=view&id=1y1RoHz2GZq8Wn2VldaYYIDuy3EEo8CZV" alt="foto perfil" class="img-fluid perfil">
+                  </div>
+                  <div class="col">
+                    <h2 class="text-center nombre">Milagros Closter.
+                      <br>Full Stack Developer Jr.</br>
+                    </h2>
                   </div>
                 </div>
               </div>
-        </div>
-      </nav>
 
+            </div>
+            <div class="carousel-item">
+
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <p class="about">
+                      Nací el 6 de Enero del año 2000, en Santa Rosa, La Pampa.
+                      <br>Actualmente, me encuentro estudiando la carrera 
+                      de Ingeniería en Software en la Facultad de Ingeniería 
+                      de la Universidad de Buenos Aires. </br>
+                    </p>
+                  </div>
+                  <div class="col">
+                    <img src="http://drive.google.com/uc?export=view&id=1bJQTMnGtaMDRbFLUyEAs1YbZ53XWUaLg" alt="foto perfil" class="img-fluid perfil2">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!--Educacion-->
+      <section class="presentacion2">
+        <h1 class="educacion">Educación</h1>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <h2 class="colunlpam">Colegio de la Universidad Nacional de La Pampa.</h2>
+              <h4 class="colunlpam">Titulo obtenido: Bachiller orientado en comunicaciones.
+                <br>Promedio: 8.83.</br>
+                Años de cursada: 2012-2017.
+              </h4>
+            </div>
+            <div class="col">
+              <img src="http://drive.google.com/uc?export=view&id=1cY5PAnUlps43y7UN1TyFvUu6xWP5FQVl" alt="logo" class="img-fluid colunlpam">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Login -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de Sesión</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3 row">
+                <!--Ingreso de mail y contraseña-->
+                <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="form-label">Contraseña</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+              </div>
+              <div class="mb-3 form-check">
+
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          
+                <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+          
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    
+      
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
