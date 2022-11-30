@@ -130,18 +130,39 @@ section.presentacion2{
 background: linear-gradient(0deg, rgba(251,211,172,1) 0%, rgba(251,190,180,1) 100%);
 }
 
-img.colunlpam{
-    margin-top: 10%;
 
-}
-
-h2.colunlpam{
-    text-align: justify;
-    padding-top: 15%;
-    color: rgb(101, 98, 128) ;
-}
-
-h4.colunlpam{
+h2.educacion{
     text-align: left;
     color: rgb(101, 98, 128) ;
 }
+
+h4.educacion{
+    text-align: left;
+    color: rgb(101, 98, 128) ;
+}
+
+img.deepLearning{
+    height: 75%;
+}
+
+.card.educacion{
+    height: 90%;
+    background-color:rgb(228, 202, 201) ;
+    
+}
+
+img.fiuba{
+    width: 60%;
+    padding-top: 2%;
+    margin-left: 20%;
+}
+
+img.colunlpam{
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+.card.h-100{
+    background-color:rgb(228, 202, 201) ;
+    
+}
+
